@@ -1,11 +1,15 @@
-import React from 'react'
-
+import React from "react";
+import Header from "./components/Header/Header";
+import { Container } from "react-bootstrap";
+import Footer from "./components/Footer/Footer";
 const App = () => {
   return (
-    <div>
-      
-    </div>
-  )
-}
+    <>
+      <Header />
+      <Container>Welcome</Container>
+      <Footer/>
+    </>
+  );
+};
 
-export default App
+export default App;
